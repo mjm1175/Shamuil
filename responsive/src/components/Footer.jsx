@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Logo from '../images/logo.png'
+import Logo from '../images/shamuil_logo_v3_transparent.png'
 import { FaLinkedin, FaFacebookF } from 'react-icons/fa'
 import { AiOutlineTwitter, AiFillInstagram } from "react-icons/ai"
 
@@ -13,8 +13,12 @@ const Footer = () => {
                         <img src={Logo} alt="Footer Logo" />
                     </Link>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id esse amet eum libero illo similique reprehenderit, sint ut fugit, dolorum aut consequuntur tempore, fugiat molestias quae expedita temporibus corrupti error?
+                        291 Broadway, Suite 1006 <br/>
+                        New York, New York 10007 <br/>
+                        Email: <a>Help@NYDefense.org</a> <br/>
+                        Tel: (212) 608-2757  |   Fax: (212) 608-1433
                     </p>
+                    {/* TODO: make email a hyperlink */}
                     <div className="footer__socials">
                         <a href="https://linkedin.com" target="_blank" rel="noreferrer noopener"><FaLinkedin /></a>
                         <a href="https://facebook.com" target="_blank" rel="noreferrer noopener"><FaFacebookF /></a>
@@ -44,7 +48,7 @@ const Footer = () => {
                 </article>                                
             </div>
             <div className="footer__copyright">
-                <small>2022 EGATOR TUTORIALS &copy; All Rights Reserved</small>
+                <small>	&copy; 2012 MORRIS SHAMUIL | ALL RIGHTS RESERVED </small>
             </div>
         </footer>
     )

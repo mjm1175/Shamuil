@@ -1,5 +1,8 @@
 import {SiOpenaigym} from 'react-icons/si'
-
+import {RiFilePaper2Line} from 'react-icons/ri'
+import {FaCarCrash, FaUserTie  } from 'react-icons/fa'
+import { MdOutlinePersonalInjury } from "react-icons/md";
+import { LuScrollText } from "react-icons/lu";
 
 
 export const links = [
@@ -101,6 +104,33 @@ export const values = [
 ]
 
 
+/* case types in format of values */
+export const practices = [
+    {
+        id: 1,
+        icon: <FaCarCrash/>,
+        title: "DWI Defense",
+        desc: "Did your happy celebration turn into a night in jail or worse because you were stopped by police and charged with Driving While Intoxicated?"
+    },
+    {
+        id: 2,
+        icon: <FaUserTie />,
+        title: "White Collar Crime",
+        desc: "Morris Shamuil is skilled at building a solid defense for Fraud and White Collar Crimes and will put those skills to work for your benefit."
+    },
+    {
+        id: 3,
+        icon: <MdOutlinePersonalInjury/>,
+        title: "Personal Injury",
+        desc: "Call us if you've been hurt in an accident or injured due to the negligence of a person, manufacturer, corporation, or doctor."
+    },
+    {
+        id: 4,
+        icon: <LuScrollText />,
+        title: "Civil Rights",
+        desc: "You may be entitled to file a Claim against the City, the District Attorney, or the Police and Police Officers who FALSELY Arrested or Assaulted you."
+    }
+]
 
 
 
@@ -108,7 +138,9 @@ export const values = [
 
 
 
-export const faqs = [
+
+
+export const old_faqs = [
     {
         id: 1,
         question: "How often should I exercise?",
@@ -141,6 +173,24 @@ export const faqs = [
     }
 ]
 
+export const faqs = [
+    {
+        id: 1,
+        question: "When is the best time to contact a lawyer?",
+        answer: "ASAP. Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!"
+    },
+    {
+        id: 2,
+        question: "How do I know if you can help me?",
+        answer: "Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit."
+    },
+    {
+        id: 3,
+        question: "What if I can't afford legal assistance?",
+        answer: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."
+    }
+]
+
 
 
 
@@ -149,6 +199,16 @@ export const faqs = [
 
 
 export const testimonials = [
+    {
+        id: 1,
+        name: "Shana Bowen",
+        quote: "Mr. Shamuil is a great trial attorney. He won the felony trial and we are thankful for all his help. I really appreciate him, he was very good.",
+        avatar: require("./images/avatar1.jpg")
+    }
+]
+
+
+export const old_testimonials = [
     {
         id: 1,
         name: "Diana Ayi",

@@ -10,7 +10,7 @@
 
 :root {
     --primary-hue: 210;
-    --gray-hue: 240;
+    --gray-hue: 223;
     --color-primary: hsl(var(--primary-hue), 100%, 50%);
     --color-primary-variant: hsl(var(--primary-hue), 100%, 65%);
     --color-secondary: #ffb116;
@@ -34,7 +34,7 @@ body {
     color: var(--color-gray-200);
     line-height: 1.7;
     overflow-x: hidden;
-    background: var(--color-gray-600) url('./images/bg_texture.png');
+    background: var(--color-gray-600);
 }
 
 .container {
@@ -97,7 +97,7 @@ img {
 }
 
 section {
-    margin-top: 10rem;
+    margin-top: 7rem;
 }
 
 .section__head {

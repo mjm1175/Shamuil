@@ -1,6 +1,6 @@
 /*import './home.css'*/
 import { Link } from 'react-router-dom'
-import Image from '../images/main_header.png'
+import Image from '../images/law_icon.png'
 
 
 const MainHeader = () => {
@@ -8,13 +8,12 @@ const MainHeader = () => {
     <header className="main__header">
       <div className="container main__header-container">
         <div className="main__header-left">
-          <h4>#100DaysOfWorkout</h4>
-          <h1>Join The Legends Of The Fitness World</h1>
+          {/*<h4>#100DaysOfWorkout</h4>*/}
+          <h1>Your Rights Come First</h1>
           <p>
-            Blah blah blah blah blah blah. Boop bopp boop, boop 
-            boop. Beep, beep.
+           Put our extensive experience to work for you
           </p>
-          <Link to="/plans" className='btn lg'>Get Started</Link>
+          <Link to="/plans" className='btn lg'>Schedule an Appointment</Link>
         </div>
         <div className="main__header-right">
           <div className="main__header-circle"></div>

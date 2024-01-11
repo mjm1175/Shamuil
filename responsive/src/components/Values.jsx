@@ -1,7 +1,7 @@
-import Image from '../images/values.jpg'
+import Image from '../images/morris_shamuil.png'
 import SectionHead from './SectionHead'
-import { GiCutDiamond } from 'react-icons/gi'
-import {values} from '../data'
+import { GiIonicColumn } from 'react-icons/gi'
+import {practices} from '../data'
 import Card from '../UI/Card'
 
 
@@ -15,13 +15,13 @@ const Values = () => {
                 </div>
             </div>
             <div className="values__right">
-                <SectionHead icon={<GiCutDiamond/>} title="Values"/>
+                <SectionHead icon={<GiIonicColumn/>} title="Morris Shamuil"/>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, labore hic eius nostrum quis reprehenderit quasi autem sint, maiores soluta excepturi, animi necessitatibus nesciunt sed rem! Voluptates facilis voluptatum cumque!
+                    In our years of experience dealing with individuals facing first time or repeat offender charges, we have learned that timing is critical. We believe in a swift response and act accordingly.
                 </p>
                 <div className="values__wrapper">
                     {
-                        values.map(({id, icon, title, desc}) => {
+                        practices.map(({id, icon, title, desc}) => {
                             /* TODO: Card need unique key */
                             return <Card key={id} className="values__value">
                                 <span>{icon}</span>
